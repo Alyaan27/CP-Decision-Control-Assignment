@@ -1,0 +1,13 @@
+# CP-Decision-Control-Assignment[if 06.cpp](https://github.com/user-attachments/files/32690135/if.06.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int temperature;
+cout<<"temperature:";
+cin>>temperature;
+if
+(temperature>=35)
+cout<<"its hot";
+return 0;
+}
+
