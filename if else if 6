@@ -1,0 +1,17 @@
+[if else if (6).cpp](https://github.com/user-attachments/files/32701090/if.else.if.6.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int units;
+cout<<"units: ";
+cin>>units;
+if 
+(units<100)
+cout<<"low usage";
+else if
+(units<=300)
+cout<<"normal usage";
+else
+cout<<"high usage";
+return 0;
+}
