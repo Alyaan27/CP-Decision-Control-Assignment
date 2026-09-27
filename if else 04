@@ -1,0 +1,14 @@
+[if else 4.cpp](https://github.com/user-attachments/files/32700784/if.else.4.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int num;
+cout<<"age:"<<endl;
+cin>>num;
+if
+(num>=18)
+cout<<"eligible to vote";
+else
+cout<<"not eligible to vote";
+return 0;
+}
