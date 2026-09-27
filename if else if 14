@@ -1,0 +1,23 @@
+[if else if 14.cpp](https://github.com/user-attachments/files/32701327/if.else.if.14.cpp)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double gb;
+
+    cout << "Enter internet usage in GB: ";
+    cin >> gb;
+
+    if (gb <= 5)
+        cout << "Very Low Usage";
+    else if (gb <= 15)
+        cout << "Normal Usage";
+    else if (gb <= 30)
+        cout << "High Usage";
+    else if (gb <= 50)
+        cout << "Very High Usage";
+    else
+        cout << "Extreme Usage";
+
+    return 0;
+}
