@@ -1,0 +1,16 @@
+[if else if (5).cpp](https://github.com/user-attachments/files/32701070/if.else.if.5.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int speed;
+cout<<"speed: ";
+cin>>speed;
+if
+(speed<50)
+cout<<"slow speed";
+else if
+(speed<100)
+cout<<"normal speed";
+else
+cout<<"high speed";
+}
