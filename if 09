@@ -1,0 +1,10 @@
+[if 09.cpp](https://github.com/user-attachments/files/32700408/if.09.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int dice_roll;
+cout<<"dice roll:";  cin>>dice_roll;
+if (dice_roll==6)
+cout<<"you can open your piece";
+return 0;
+}
