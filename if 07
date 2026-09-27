@@ -1,0 +1,12 @@
+[if 07.cpp](https://github.com/user-attachments/files/32700278/if.07.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int marks;
+cout<<"marks:"; cin>>marks;
+if
+(marks>=80)
+cout<<"you are eligible for scholarship";
+return 0;
+}
+
