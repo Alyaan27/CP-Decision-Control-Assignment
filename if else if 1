@@ -1,0 +1,17 @@
+[if else if (1).cpp](https://github.com/user-attachments/files/32701017/if.else.if.1.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int num;
+cout<<"number : ";
+cin>>num;
+if
+(num>0)
+cout<<"positive";
+else if
+(num<0)
+cout<<"negetive";
+else
+cout<<"zero";
+return 0;
+}
