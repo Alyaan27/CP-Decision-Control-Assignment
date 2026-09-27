@@ -1,0 +1,23 @@
+[if else if 13.cpp](https://github.com/user-attachments/files/32701321/if.else.if.13.cpp)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int points;
+
+    cout << "Enter your points: ";
+    cin >> points;
+
+    if (points < 100)
+        cout << "Bronze";
+    else if (points < 300)
+        cout << "Silver";
+    else if (points < 600)
+        cout << "Gold";
+    else if (points < 1000)
+        cout << "Platinum";
+    else
+        cout << "Diamond";
+
+    return 0;
+}
