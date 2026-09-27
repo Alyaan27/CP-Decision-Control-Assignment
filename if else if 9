@@ -1,0 +1,21 @@
+[if else if (9).cpp](https://github.com/user-attachments/files/32701134/if.else.if.9.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int marks;
+cout<<"enter marks: ";
+cin>>marks;
+if(marks>=90){
+	cout<<"A*";
+}
+else if 
+(marks>=70 && marks<90){cout<<"A";
+}
+else if
+(marks>=60 && marks<70){
+	cout<<"B*";
+}
+else 
+cout<<"try hard";
+return 0;
+}
