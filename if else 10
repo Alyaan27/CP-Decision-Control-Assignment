@@ -1,0 +1,13 @@
+[if else 10.cpp](https://github.com/user-attachments/files/32700864/if.else.10.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int password;
+cout<<"PASSWORD: ";
+cin>>password;
+if (password==0000)
+cout<<"Correct password";
+else
+cout<<"incorrect password";
+return 0;	
+}
