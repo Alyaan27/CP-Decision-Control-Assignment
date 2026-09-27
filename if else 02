@@ -1,0 +1,14 @@
+[if else 2.cpp](https://github.com/user-attachments/files/32700742/if.else.2.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int num;
+cout<<"number: ";
+cin>>num;
+if
+(num%2==0)	
+cout<<"even";
+else
+cout<<"odd";
+return 0;
+}
