@@ -1,0 +1,14 @@
+[if else 8.cpp](https://github.com/user-attachments/files/32700835/if.else.8.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int roll;
+cout<<"roll: ";
+cin>>roll;
+if (roll==6)
+cout<<"you can open piece";
+else
+cout<<"you cannot open piece";
+return 0;
+
+}
