@@ -1,0 +1,23 @@
+[if else if 12.cpp](https://github.com/user-attachments/files/32701315/if.else.if.12.cpp)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int amount;
+
+    cout << "Enter withdrawal amount: ";
+    cin >> amount;
+
+    if (amount <= 0)
+        cout << "Invalid amount";
+    else if (amount <= 5000)
+        cout << "Small withdrawal";
+    else if (amount <= 20000)
+        cout << "Medium withdrawal";
+    else if (amount <= 50000)
+        cout << "Large withdrawal";
+    else
+        cout << "Withdrawal limit exceeded";
+
+    return 0;
+}
