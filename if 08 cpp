@@ -1,0 +1,13 @@
+[IF 08.cpp](https://github.com/user-attachments/files/32700349/IF.08.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int num;
+cout<<"num:"; cin>>num;
+if
+(num>=1 && num<=100)
+cout<<"the number is between 1 and 100";
+return 0;
+
+
+}
