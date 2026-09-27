@@ -1,0 +1,14 @@
+[if else 13.cpp](https://github.com/user-attachments/files/32700947/if.else.13.cpp)
+#include <iostream>
+using namespace std;
+int main(){
+int speed;
+cout<<"SPEED: ";
+cin>>speed;
+if 
+(speed>=120)
+cout<<"OVERSPEED ";
+else 
+cout<<"NORMAL SPEED";
+return 0;
+}
